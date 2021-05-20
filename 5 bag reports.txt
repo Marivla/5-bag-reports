@@ -1,0 +1,74 @@
+1.
+Summary - Incorrect display of text in the Add Organization field at the top of the page
+Project - https://spravka.by/ 
+Component Header
+Severity Minor
+Priority P3
+Status new
+Author Marina Semashko
+Environment - Firefox Browser -88.0.1Firefox Release
+Attachment - file spravka.by.png
+
+2
+Summary - Error in the greeting text on the home page "Доброго пожаловать в Rozetka.By"
+Project - https://rozetka.by/
+Component Header
+Severity Trivial
+Priority P4
+Status new
+Author Marina Semashko
+Environment - Firefox Browser -88.0.1Firefox Release
+Description: STR
+1. Open the website 
+AR: The text of the greeting without grammatical errors
+ER: Error in the greeting text on the main page  "Доброго пожаловать в Rozetka.By"
+Attachment - file greeting text rozetka.by.png
+
+3
+Summary -Not the validity of the page when you go to the "About us" section"
+Project - https://rozetka.by/about-us/
+Component About us
+Severity Critical
+Priority P2
+Status new
+Author Marina Semashko
+Environment - Firefox Browser -88.0.1Firefox Release
+Description: STR:
+1. Open the site 
+ 2. Go to the "About Us" section
+AR: Go to the page in English and Latin. With fictional employees and their photos.
+ ER: Opening of the information page about the company's data in Russian
+Attachment - file not a valid page razetka.by.png
+
+4 
+Summary - The ability to send a request after entering invalid data in the "your phone" line when you click "Send".
+Project - http://pavelanna.by/index.html
+Component - footer
+Severity Minor
+Priority P3
+Environment - Firefox Browser -88.0.1Firefox Release
+Description: STR
+1. Open the site
+2. Go down to the basement of the site
+3. In the "Your Name" line, enter " Larisa"
+4. In the "Your phone" line, enter " test"
+5. Click " Send"
+AR: A message is displayed:"We will contact you soon"
+ER: The message is displayed: "The field is not written correctly"
+
+5
+Summary -An error appears in the console when refreshing the page (status of 404)
+Project - http://osit-borisov.by/ru/
+Component - footer
+Severity Minor
+Priority P4
+Environment - Google Chrome Версия 90.0.4430.212 (Официальная сборка), (32 бит)
+Description: STR
+1. Open the site 
+2. Open the Console 
+3. Update the site 
+AR: There will be no errors in the console
+ER: light up error 404
+Attachment fail osit-borisov.by ru 5.png
+
+
